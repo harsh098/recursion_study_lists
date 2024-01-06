@@ -1,5 +1,10 @@
 from typing import List
 
+"""
+Codestudio Link
+https://www.codingninjas.com/studio/problems/-binary-strings-with-no-consecutive-1s._893001?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+"""
+
 def generate(ds: str, N: int, res: List[str]) -> List[str]:
     if len(ds)==N:
         res.append(ds)
